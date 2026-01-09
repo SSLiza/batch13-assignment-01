@@ -8,7 +8,7 @@
 .navbar {
     height: 92px;
     align-items: center;
-    background-color: bisque;
+    background-color:white;
     display: flex;
     justify-content: space-between;
     padding: 16px 120px 16px 120px;
@@ -296,7 +296,7 @@ h1 {
     line-height: 1.5;
 }
 
-/* .features-list li::before {
+.features-list li::before {
     content: '✔';
     position: absolute;
     left: 0;
@@ -311,11 +311,12 @@ h1 {
     align-items: center;
     justify-content: center;
     font-size: 12px;
-} */
+}
 
 .custom-bullet {
     list-style-image: url('assets/CheckCircle.png');
 }
+
 .early-access-cta {
     margin: 10%;
     padding: 100px 5%;
@@ -352,5 +353,36 @@ h1 {
 .cta-footer-text {
     font-size: 14px;
     color: #888;
+    margin-top: 10px;
+}
+
+.footer {
+    background: #001427;
+    color: #fff;
+    padding: 60px 8% 20px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 40px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.social-links {
+    text-align: right;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
     margin-top: 10px;
 }
