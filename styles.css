@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', -apple-system, sans-serif;
+}
+
+.navbar {
+    height: 60px;
+    align-items: center;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 120px 16px 120px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    gap: 10px;
+    padding: 16px 120px 16px 120px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.early-access-btn {
+
+    background-color: #30B868;
+    text-decoration: none;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.badge {
+    background: rgba(255, 255, 255, 1);
+    color: #4a8e63;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+
+.hero-banner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 40;
+    padding: 70px 120px 134px 120px;
+    background: linear-gradient(rgba(15, 32, 50, 0.85),
+            rgba(15, 32, 50, 0.85)),
+        url('./assets/hero-bg.png');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-container {
+    max-width: 900px;
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+    color: #4a8e63;
+    border-radius: 50%;
+    margin-right: 8px;
+    display: inline-block;
+    box-shadow: 0 0 5px #4a8e63;
+}
+
+h1 {
+    font-size: 64px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    font-weight: 800;
+    color: white;
+}
+
+.green-text {
+    color: #4a8e63;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.6;
+    opacity: 0.9;
+    margin-bottom: 40px;
+    color: white;
+
+}
+
+.hero-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 28px;
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-icon-right {
+    width: 20px;
+    height: auto;
+}
+
+.play-icon {
+    width: 20px;
+    height: 20px;
+    fill: white;
+}
+
+.btn-group {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.btn-primary {
+    background-color: #4a8e63;
+    color: white;
+}
+
+.btn-secondary {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
