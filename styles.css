@@ -153,3 +153,72 @@ h1 {
     background: rgba(255, 255, 255, 0.1);
     color: white;
 }
+.problems {
+    padding: 80px 10%;
+    text-align: center;
+    background-color: #ffffff;
+}
+.problems-header h2 {
+    font-size: 36px;
+    color: #001f3f;
+    margin-bottom: 16px;
+    font-weight: 800;
+}
+
+.sub-heading {
+    color: #666;
+    margin-bottom: 60px;
+    font-size: 18px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    min-width: 250px;
+    padding: 40px 30px;
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    background-color: #ff5e5e; 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.icon-circle img {
+    width: 28px;
+    height: 28px;
+    filter: brightness(0) invert(1); 
+}
+
+.card h3 {
+    font-size: 20px;
+    color: #001f3f;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.card p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+}
